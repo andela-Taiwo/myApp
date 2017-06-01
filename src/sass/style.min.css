@@ -1,1 +1,1 @@
-body{background-color:#dfdddd}footer{position:fixed}.panel{margin-top:60px}
+body{background-color:#dfdddd}footer{position:relative}.panel{clear:both}.registrationForm{clear:both}input[type="text"] textarea.form-control{color:#999999}input{color:#fff}.control-label{color:#2A2A2b}input[type="text"] textarea.form-control -ms-input-placeholder{color:#999999}input[type="text"] textarea.form-control -webkit-input-placeholder{color:#999999}legend{text-align:left;color:#2D2D2D;font-weight:lighter;font-size:26px}

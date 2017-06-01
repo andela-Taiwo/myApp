@@ -21,7 +21,7 @@ ReactDOM.render(
    <Route path="/" component={Layout}>
     <IndexRoute component={Latest}></IndexRoute>
     <Route path="featured"component={Features}></Route>
-    <Route path="(archives/:articles)" name="archives" component={Archives}></Route>
+    <Route path="(archives)" name="archives" component={Archives}></Route>
       <Route path="search" component={Search}></Route>
       <Route path="login" component={Login}></Route>
       <Route path="register" component={Register}></Route>

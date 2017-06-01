@@ -25,7 +25,7 @@ export  default class Latest extends React.Component{
         console.log(articles);
         const newsList = [];
         for(var i=0 ; i<articles.length; i++){
-        newsList.push(<tr key={articles[i].url}><td>{articles[i].author}</td><td>{articles[i].description}</td><td><Link>{articles[i].url}</Link></td></tr>);
+        newsList.push(<tr key={articles[i].url}><td>{articles[i].author}</td><td>{articles[i].description}</td><td><Link to="articles[i].url">{articles[i].url}</Link></td></tr>);
 
         this.setState({
           result: newsList

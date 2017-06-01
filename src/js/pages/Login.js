@@ -2,16 +2,22 @@ import React from 'react';
 import GoogleLogin from 'react-google-login';
 import FontAwesome  from 'react-fontawesome';
 export  default class Login extends React.Component{
+  mixins: [ History ];
+   logIn (e) {
 
+   this.props.router.push('', 'archives');
+   }
   render(){
     const responseGoogle = (response) => {
       console.log(response);
      }
     return(
       <div>
-      Username: <input />
-      Password: <input type='password' />
-      <input type='submit' />
+      <form className="login-form" onSubmit={this.logIn.bind(this)}>
+        Username: <input />
+        Password: <input type='password' />
+        <input type='submit' />
+      </form>
       <br />
       <p />
       <GoogleLogin

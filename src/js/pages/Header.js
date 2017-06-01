@@ -18,7 +18,7 @@ export default class Header extends React.Component {
                   <li className="active" onClick={this.navigate.bind(this)}><Link to="latest">Latest News</Link></li>
                 <li>  <Link to="archives"  >archives</Link></li>
                 <li>  <Link to="featured"  activeClassName="active">featured</Link></li>
-                  <li><Link to="search">search</Link></li>
+                  <li><Link to="search"><input /></Link></li>
                   <li ><Link to="login">Login</Link></li>
 
                 <li ><Link to="register">Register</Link></li>
