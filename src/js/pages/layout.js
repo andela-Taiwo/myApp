@@ -20,6 +20,7 @@ navigate(){
       <div>
       <Header />
     <h1>NewsHeadlines.net</h1>
+    
     {this.props.children}
 
     <Footer />
